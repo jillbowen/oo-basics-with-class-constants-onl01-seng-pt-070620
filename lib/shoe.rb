@@ -9,10 +9,9 @@ class Shoe
     @brand = brand
       if BRANDS.include?(brand) == false 
         BRANDS << brand
-    
+      end
      ## before shoveling brand into BRANDS, we should first inspect BRANDS to see if it already 
     ## includes brand. If it doesn't go ahead and push it in. If it does, do nothing.
-    BRANDS << brand
   end
 
   def cobble
