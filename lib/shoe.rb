@@ -12,6 +12,7 @@ class Shoe
         brands << b.uniq!
         binding.pry
       end
+    BRANDS << brand 
   end
 
   def cobble
