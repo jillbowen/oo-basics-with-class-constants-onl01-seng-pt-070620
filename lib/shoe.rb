@@ -11,6 +11,7 @@ class Shoe
     brand.each do |shoe_brand|
       brands << shoe_brand
     end
+    binding.pry
   end
 
   def cobble
