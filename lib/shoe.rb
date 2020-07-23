@@ -9,8 +9,8 @@ class Shoe
     brands = []
       brands.each do |b|
         brands << b.uniq!
-        BRANDS << brand
       end
+    BRANDS << brand
   end
 
   def cobble
