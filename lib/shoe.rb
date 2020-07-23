@@ -10,9 +10,8 @@ class Shoe
       brands.each.uniq! do |shoe_brand|
         BRANDS << shoe_brand
       end
-      binding.pry
   end
-
+binding.pry
   def cobble
     self.condition = "new"
     puts "Your shoe is as good as new!"
