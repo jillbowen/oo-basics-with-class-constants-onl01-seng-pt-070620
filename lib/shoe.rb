@@ -7,7 +7,7 @@ class Shoe
   
   def initialize(brand)
     @brand = brand
-       BRANDS << brands.uniq!
+       BRANDS << brand
   end
 binding.pry
   def cobble
