@@ -1,3 +1,4 @@
+require 'pry'
 class Shoe
   attr_accessor :color, :size, :material, :condition
   attr_reader :brand
@@ -9,7 +10,7 @@ class Shoe
     brands = []
       brands.each do |b|
         brands << b.uniq!
-        BRANDS << brands
+        binding.pry
       end
   end
 
