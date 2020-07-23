@@ -11,9 +11,8 @@ class Shoe
     brand.each do |shoe_brand|
       brands << shoe_brand
     end
-    binding.pry
   end
-
+binding.pry
   def cobble
     self.condition = "new"
     puts "Your shoe is as good as new!"
