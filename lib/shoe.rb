@@ -11,6 +11,7 @@ class Shoe
     brand.each do |shoe_brand|
       brands << shoe_brand
     end
+    BRANDS << brands.uniq!
   end
 binding.pry
   def cobble
