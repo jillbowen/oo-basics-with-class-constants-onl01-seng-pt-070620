@@ -7,12 +7,10 @@ class Shoe
   
   def initialize(brand)
     @brand = brand
-    brands = []
-      brands.each do |b|
-        brands << b.uniq!
+      brands.each.uniq! do |shoe_brand|
+        BRANDS << shoe_brand
       end
       binding.pry
-    BRANDS << brand 
   end
 
   def cobble
