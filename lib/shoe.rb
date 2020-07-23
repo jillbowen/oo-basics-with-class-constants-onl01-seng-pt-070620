@@ -7,7 +7,7 @@ class Shoe
   
   def initialize(brand)
     @brand = brand
-      if BRANDS.include?(brand) == true
+      if BRANDS.include?(brand) == false 
         BRANDS << brand
     
      ## before shoveling brand into BRANDS, we should first inspect BRANDS to see if it already 
