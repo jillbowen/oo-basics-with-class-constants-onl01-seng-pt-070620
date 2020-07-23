@@ -9,6 +9,7 @@ class Shoe
     brands = []
       brands.each do |b|
         brands << b.uniq!
+        BRANDS << brands
       end
   end
 
