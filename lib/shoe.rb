@@ -9,8 +9,8 @@ class Shoe
     @brand = brand
     brands = []
       brands.each do |b|
-        brands << b.uniq!
         binding.pry
+        brands << b.uniq!
       end
     BRANDS << brand 
   end
